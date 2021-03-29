@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Player {
+    //only use '!' in front of datatype when you are sure that the variable will contain a data in it ,otherwse use '?'
+    var desiredLeague: String?
+    var selectedSkillLevel: String?
+}

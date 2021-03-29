@@ -10,21 +10,26 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    @IBOutlet weak var desiredLeagueSkillLB: UILabel!
+    @IBOutlet weak var showSkillLevelLB: UILabel!
+    
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(player.desiredLeague)
+        if player.desiredLeague != nil {
+        desiredLeagueSkillLB.text = "Selected Desired League: \(player.desiredLeague!)"
+        }else {
+            desiredLeagueSkillLB.text = "Selected Desired League: \(player.desiredLeague)"
+        }
+}
 
-        // Do any additional setup after loading the view.
+    @IBAction func beginnerBtnTapped(_ sender: UIButton) {
+        showSkillLevelLB.text = "I am a Beginner"
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func ballerBtnTapped(_ sender: UIButton) {
+        showSkillLevelLB.text = "I am a Baller"
     }
-    */
-
 }
