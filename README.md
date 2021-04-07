@@ -14,4 +14,6 @@ displayed on a label on the same page. -> You can click 'Finish' button and go b
 In the two view controllers I have added a button 'Arrow' to go to previous pages.
 
 
-I am still a learner, any suggestions would be appreciated at email id - sanchitalachke@gmail.com. Thank you.
+I am still a learner trying to build good applications and get good understanding of iOS Development.
+If you have any suggestions please send them at email id - sanchitalachke@gmail.com and DONT FORGET TO ADD -> "GITHUB SUGGESTION FOR - (PROJECT NAME)" TO YOUR SUBJECT LINE.
+Thank You!
