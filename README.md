@@ -14,4 +14,4 @@ displayed on a label on the same page. -> You can click 'Finish' button and go b
 In the two view controllers I have added a button 'Arrow' to go to previous pages.
 
 
-I am still a learner, any suggestions would be appreciated. Thank you.
+I am still a learner, any suggestions would be appreciated at email id - sanchitalachke@gmail.com. Thank you.
